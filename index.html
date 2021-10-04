@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header>Calculadora de interés simple y compuesto</header>
+        <section>
+            <form id="interest">
+                <input type="number" name="capital" id="capital" placeholder="Préstamo..."/>
+                <input type="number" name="tasa" id="tasa" placeholder="tasa de interés..."/>
+                <input type="number" name="tiempo" id="tiempo" placeholder="años de interés...">
+                <select name="tipo" id="tipo">
+                    <option value="simple">Simple</option>
+                    <option value="compuesto">Compuesto</option>
+                </select>
+                <div class="footer">
+                    <button type="submit">Calcular</button>
+                </div>
+            </form>
+        </section>
+        <p id="result" class="response"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

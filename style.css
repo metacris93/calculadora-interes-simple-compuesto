@@ -1,0 +1,63 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+.container {
+    width: 600px;
+    height: 600px;
+    margin: 5rem auto;
+}
+.container section {
+    padding: 0 4rem;
+}
+.container header {
+    border-radius: 15px 15px 0 0;
+    font-size: 1.75rem;
+    text-align: center;
+    background-color: rgb(9, 54, 80);
+    color: white;
+}
+header {
+    padding: 10px;
+}
+section {
+    border: 1px solid black;
+    border-radius: 0 0 15px 15px;
+    padding: 10px;
+    margin: 0 auto;
+}
+section .footer {
+    text-align: center;
+    padding: 10px;
+}
+button {
+    background-color: rgb(9, 54, 80);
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+}
+input {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    width: 40%;
+    height: 20px;
+}
+select {
+    height: 34px;
+    margin: 10px;
+    width: 43%;
+    border-radius: 5px;
+}
+.response {
+    height: 20px;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
